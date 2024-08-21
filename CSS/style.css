@@ -460,7 +460,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
-    background-image: url(../img/banner/b14.png);
+    background-image: url("../img/banner/b14.png");
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
@@ -595,7 +595,7 @@ footer a:hover {
 /* shop page css */
 
 #page-header {
-    background-image: url(../img/banner/b1.jpg);
+    background-image: url("../img/banner/b1.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -670,15 +670,15 @@ footer a:hover {
 }
 
 
-#prodetails .single-pro-details select{
+#prodetails .single-pro-details select {
     display: block;
     padding: 5px 10px;
     margin-bottom: 10px;
 
-    
+
 }
 
-#prodetails .single-pro-details input{
+#prodetails .single-pro-details input {
     width: 50px;
     height: 47px;
     padding-left: 10px;
@@ -686,33 +686,33 @@ footer a:hover {
     margin-right: 10px;
 }
 
-#prodetails .single-pro-details input:focus{
+#prodetails .single-pro-details input:focus {
     outline: none;
 }
 
-#prodetails .single-pro-details button{
+#prodetails .single-pro-details button {
     background-color: #088178;
     color: #fff;
 }
 
-#prodetails .single-pro-details span{
+#prodetails .single-pro-details span {
     line-height: 25px;
 }
 
 
 /* Blog Page */
 
-#page-header .blog-header{
-    background-image: url("img/banner/b2.jpg");
-    
+#page-header .blog-header {
+    background-image: url("../img/banner/b2.jpg");
+
 }
 
-#blog{
+#blog {
     padding: 150px 150px 0 150px;
-    
+
 }
 
-#blog .blog-box{
+#blog .blog-box {
     display: flex;
     align-items: center;
     width: 100%;
@@ -721,23 +721,23 @@ footer a:hover {
 
 }
 
-#blog .blog-img{
+#blog .blog-img {
     width: 50%;
     margin-right: 40px;
 }
 
-#blog img{
+#blog img {
     width: 100%;
     height: 300px;
     object-fit: cover;
 
 }
 
-#blog .blog-details{
+#blog .blog-details {
     width: 50%;
 }
 
-#blog .blog-details a{
+#blog .blog-details a {
     text-decoration: none;
     font-size: 11px;
     color: #000;
@@ -759,12 +759,12 @@ footer a:hover {
 
 } */
 
-#blog .blog-details a:hover{
+#blog .blog-details a:hover {
     color: #088178;
     transition: 0.3s;
 }
 
-#blog .blog-box h1{
+#blog .blog-box h1 {
     position: absolute;
     top: -40px;
     left: 0px;
@@ -774,4 +774,169 @@ footer a:hover {
     z-index: -9;
 
 }
+
+/* ABOUT US */
+
+#page-header .about-header {
+    background-image: url("../img/about/banner.png");
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head img {
+    width: 50%;
+    height: auto;
+}
+
+#about-head div {
+    padding-left: 40px;
+}
+
+
+#about-app {
+    text-align: center;
+
+}
+
+#about-app video {
+    width: 70%;
+    height: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+/* contactpage */
+
+#contact-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#contact-details .details {
+    width: 50%;
+}
+
+#contact-details .details span {
+    font-size: 16px;
+}
+
+#contact-details .details h2 {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-details .details h3 {
+    font-size: 16px;
+}
+
+#contact-details .details  li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+
+}
+
+#contact-details .details li i{
+    /* display: flex; */
+    font-size: 14px;
+    padding-right: 22px;
+    /* flex-direction: column; */
+}
+
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+#form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+}
+
+
+#form-details form{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#form-details span{
+    font-size: 16px;
+
+}
+
+#form-details h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+
+}
+
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid;
+}
+
+#form-details form button{
+    background-color: #088178;
+    color: #fff;
+}
+
+#form-details .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+
+#form-details .people div img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+
+}
+
+#form-details .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#form-details .people div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
 
