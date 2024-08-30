@@ -21,8 +21,8 @@
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About us</a></li>
-                <li><a class="active" href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="far fa-shopping-bag"></i>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i>
                     </a></li>
 
             </ul>
@@ -32,74 +32,82 @@
         <h2> #Contact Us</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. !</p>
     </section>
-    <section id="contact-details" class="section-p1">
-        <div class="details">
-            <span>GET IN TOUCH</span>
-            <h2>Visit One Of Our Agency</h2>
-            <h3>Head Office</h3>
-            <div>
 
-                <li>
-                    <i class="fal fa-map"></i>
-                    <p>Madhyapur Thimi</p>
-                    <i class="far fa-envelope"></i>
-                    <p>Nabin.sht@gmail.com</p>
-                    <i class="fas fa-phone-alt"></i>
-                    <p>+977-9843350603</p>
-                    <i class="far fa-clock"></i>
-                    <p>Monday to Friday: 10 AM to 5 PM</p>
-                </li>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>SubTotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i< /a>
+                    </td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronuat Tshirt</td>
+                    <td>$100</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$100</td>
 
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i< /a>
+                    </td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Cartoon Astronuat Tshirt</td>
+                    <td>$7</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$7</td>
 
-            </div>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i< /a>
+                    </td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Astronuat Tshirt</td>
+                    <td>$48</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$48</td>
 
-        </div>
-        <div class="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.2058861911596!2d85.38446777453474!3d27.680030826697408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1bb62d676add%3A0xd32fb9402a911a89!2sBhulankhel%20pokhari!5e0!3m2!1sen!2snp!4v1723703372819!5m2!1sen!2snp"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </section>
-    <section id="form-details" class="section-p1">
-        <form action="">
-            <span>Leave A Message</span>
-            <h2>We Love To Hear From You</h2>
-            <input type="text" placeholder="your Name">
-            <input type="text" placeholder="E-mail">
-            <input type="text" placeholder="subject">
-            <textarea name="" id="" cols="30" rows="10">leave your message here</textarea>
-            <button class="normal">submit</button>
-        </form>
-
-        <div class="people">
-            <div>
-                <img src="img/people/1.png" alt="">
-                <p><span>jhon doe</span> Senior markeeting manager <br>Phone:984335698 <br>E-mail:example@gmail.com</p>
-            </div>
-            <div>
-                <img src="img/people/2.png" alt="">
-                <p><span>Mohan prajapati</span>  Manager <br>Phone:9843345454598 <br>E-mail:contact@gmail.com</p>
-            </div>
-            <div>
-                <img src="img/people/3.png" alt="">
-                <p><span>Ram Stha</span> Senior Sales manager <br>Phone:984698 <br>E-mail:helllo@gmail.com</p>
-            </div>
-
-        </div>
+                </tr>
+            </tbody>
+        </table>
 
     </section>
 
-
-
-    <section id="newsletter" class="section-p1 section-m1">
-        <div class="newstext">
-            <h4>Sign up for Newsletter</h4>
-            <p> get E-mail updates about our store and <span>special offers</span></p>
+    <section id="cart-add" class="section-p1">
+        <div id="copun">
+            <h3>Apply Copun</h3>
+            <div>
+                <input type="text" placeholder="enter your copun">
+                <button class="normal">Apply</button>
+            </div>
         </div>
-        <div class="form">
-            <input type="text" placeholder="E-mail address">
-            <button class="normal">Sign UP</button>
+        <div id="subtotal">
+            <h3>Cart total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$225</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>free</td>
+
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$225</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+
 
         </div>
     </section>
